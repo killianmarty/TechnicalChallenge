@@ -2,11 +2,11 @@
 
 ## Introduction
 
-This project was made for a technical challenge. The goal was to create a simple API calling VirusTotal API for scanning an URL.
+This project was made for a technical challenge. The goal was to create a simple API calling VirusTotal API for checking reputation of an URL.
 
 ## Features
 
-This API server exposes a `/analyze` `POST` endpoint that takes an URL in the body and uses the VirusTotal API to scan the URL and get a summary. It also logs the server activity for monitoring and troubleshooting.
+This API server exposes a `/analyze` `POST` endpoint that takes an URL in the body and uses the VirusTotal API to check the URL and get a summary of its reputation. It also logs the server activity for monitoring and troubleshooting.
 
 ## Installation
 
