@@ -16,7 +16,13 @@ First, clone the repository and install dependencies (virtual environment is opt
 git clone https://github.com/killianmarty/TechnicalChallenge
 cd TechnicalChallenge
 python3 -m venv .
+
+#For Linux
 source bin/activate
+
+#For Windows
+\Scripts\activate.bat
+
 pip install -r requirements.txt
 ```
 
